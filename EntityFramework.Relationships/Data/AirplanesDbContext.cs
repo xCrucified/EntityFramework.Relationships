@@ -75,6 +75,5 @@ namespace EntityFramework.Relationships.Data
         public DbSet<Airplanes> Airplanes { get; set; }
         public DbSet<Clients> Clients { get; set; }
         public DbSet<Flights> Flights { get; set; }
-
     }
 }
