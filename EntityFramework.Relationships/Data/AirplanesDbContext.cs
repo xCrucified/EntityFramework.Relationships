@@ -49,14 +49,14 @@ namespace EntityFramework.Relationships.Data
             });
             modelBuilder.Entity<Clients>().HasData(new[]
             {
-                new Clients() {Id = 1, AccountId = 1, Email = "asdf@gmail.com", Name = "Bob", Sex = "Male", Surname = "AstralStep"},
-                new Clients() {Id = 2, AccountId = 2, Email = "IOP435@gmail.com", Name = "Michael", Sex = "Famale", Surname = "Zangetsu"},
-                new Clients() {Id = 3, AccountId = 3, Email = "Tyvipt1324@gmail.com", Name = "Oleg", Sex = "Male", Surname = "Retarded"},
-                new Clients() {Id = 4, AccountId = 4, Email = "Mmdkfk9@gmail.com", Name = "Georgy", Sex = "Male", Surname = "Useless"},
-                new Clients() {Id = 5, AccountId = 5, Email = "Meg2@gmail.com", Name = "Dasha", Sex = "Male", Surname = "ProMaster"},
-                new Clients() {Id = 6, AccountId = 6, Email = "Cook434@gmail.com", Name = "Luda", Sex = "Falame", Surname = "Bobrovich"},
-                new Clients() {Id = 7, AccountId = 7, Email = "WhitchBane@gmail.com", Name = "Stepan", Sex = "Male", Surname = "Idk"},
-                new Clients() {Id = 8, AccountId = 8, Email = "Steve@gmail.com", Name = "Steve", Sex = "Steve", Surname = "Steve"},
+                new Clients() {Id = 1, AccountId = 1, Email = "asdf@gmail.com", Name = "Bob", Surname = "AstralStep", IsMale = true},
+                new Clients() {Id = 2, AccountId = 2, Email = "IOP435@gmail.com", Name = "Michael", Surname = "Zangetsu", IsMale = false},
+                new Clients() {Id = 3, AccountId = 3, Email = "Tyvipt1324@gmail.com", Name = "Oleg", Surname = "Retarded", IsMale = true},
+                new Clients() {Id = 4, AccountId = 4, Email = "Mmdkfk9@gmail.com", Name = "Georgy", Surname = "Useless", IsMale = true},
+                new Clients() {Id = 5, AccountId = 5, Email = "Meg2@gmail.com", Name = "Dasha", Surname = "ProMaster", IsMale = false},
+                new Clients() {Id = 6, AccountId = 6, Email = "Cook434@gmail.com", Name = "Luda", Surname = "Bobrovich", IsMale = true},
+                new Clients() {Id = 7, AccountId = 7, Email = "WhitchBane@gmail.com", Name = "Stepan", Surname = "Idk", IsMale = true},
+                new Clients() {Id = 8, AccountId = 8, Email = "Steve@gmail.com", Name = "Steve",Surname = "Steve", IsMale = true},
             });
             modelBuilder.Entity<Flights>().HasData(new[]
             {

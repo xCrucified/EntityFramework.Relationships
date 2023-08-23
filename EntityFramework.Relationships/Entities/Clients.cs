@@ -12,7 +12,7 @@ namespace EntityFramework.Relationships.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
-        public string Sex { get; set; }
+        public Boolean IsMale { get; set; }
         public int AccountId { get; set; }
 
         //
